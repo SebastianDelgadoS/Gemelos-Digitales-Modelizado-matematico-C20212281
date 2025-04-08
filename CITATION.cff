@@ -20,12 +20,11 @@ abstract: |-
   Instituto Tecnologico de Tijuana
   Ingenieria Biomédica
   Gemelos Digitales
-  Practica 1-Leyes de Crecimiento Exponencial
+  Practica 4-Modelizado matematico
 keywords:
-  - Ley de crecimiento exponencial
+  - Modelo matematico
   - Metodo de Heun
-  - Nanohidrogeles
-  - Tasas de liberacion de farmacos
-  - Farmaco Cinetica
-  - Protocolo basado en modelos
+  - Matriz Jacobiana
+  - Punto de equilibrio
+ 
 license: BSD-2-Clause
