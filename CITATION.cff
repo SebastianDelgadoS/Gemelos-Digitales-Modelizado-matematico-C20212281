@@ -14,17 +14,18 @@ authors:
     given-names: Jose Sebastian
     affiliation: Tecnologico Nacional de Mexico
 repository-code: >-
-https://github.com/SebastianDelgadoS/Gemelos-Digitales-Modelizado-matematico-C20212281.git
+  https://github.com/SebastianDelgadoS/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-C20212281_DelgadoSoto
 abstract: |-
   Tecnologico Nacional de Mexico
   Instituto Tecnologico de Tijuana
   Ingenieria Biomédica
   Gemelos Digitales
-  Practica 4-Modelizado matematico
+  Practica 1-Leyes de Crecimiento Exponencial
 keywords:
-  - Modelizado matematico
-  - Ecuaciones diferenciales ordinarias
-  - Matriz Jacobiana
-  - Puntos de equilibrio
-  - Valores propios
+  - Ley de crecimiento exponencial
+  - Metodo de Heun
+  - Nanohidrogeles
+  - Tasas de liberacion de farmacos
+  - Farmaco Cinetica
+  - Protocolo basado en modelos
 license: BSD-2-Clause
