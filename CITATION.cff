@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MATLAB
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - {}
+  - email: l20212281@tectijuana.edu.mx
+    family-names: Delgado Soto
+    given-names: Jose Sebastian
+    affiliation: Tecnologico Nacional de Mexico
+repository-code: >-
+  https://github.com/SebastianDelgadoS/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-C20212281_DelgadoSoto
+abstract: |-
+  Tecnologico Nacional de Mexico
+  Instituto Tecnologico de Tijuana
+  Ingenieria Biomédica
+  Gemelos Digitales
+  Practica 1-Leyes de Crecimiento Exponencial
+keywords:
+  - Ley de crecimiento exponencial
+  - Metodo de Heun
+  - Nanohidrogeles
+  - Tasas de liberacion de farmacos
+  - Farmaco Cinetica
+  - Protocolo basado en modelos
+license: BSD-2-Clause
