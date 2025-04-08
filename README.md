@@ -1,5 +1,5 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=SebastianDelgadoS/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-C20212281_DelgadoSoto)
-# Gemelos Digitales. Práctica 1: Leyes de crecimiento exponencial [DelgadoC20212281]
+# Gemelos Digitales. Práctica 4: Modelizado matematico [DelgadoC20212281]
 
 ## Autor
 Delgado Soto Jose Sebastian
@@ -7,13 +7,14 @@ Delgado Soto Jose Sebastian
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l20212281@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+En esta práctica se aplicará el método de Heun para crear un algoritmo de regresión no lineal que resuelva EDO de primer orden a partir de datos experimentales. También se calcularán parámetros estadísticos clave para estimar las tasas de crecimiento 𝜌 y 𝛾. Finalmente, se obtendrá la matriz Jacobiana, los puntos de equilibrio y sus valores propios para analizar la estabilidad del sistema.
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1.Implementar algoritmos utilizando el método de Heun para resolver EDO basadas en datos experimentales.
+2.Representar gráficamente la curva ajustada para evaluar la precisión del modelo frente a los datos reales.
+3.Determinar los principales parámetros estadísticos del sistema.
+4.Obtener estimaciones de las tasas de crecimiento 𝜌 y 𝛾.
+5.Analizar la estabilidad del sistema mediante el cálculo de la matriz Jacobiana, los puntos de equilibrio y sus valores propios.
 
 ## Docente
 Dr. Paul A. Valle
@@ -23,4 +24,6 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
 
-[2] González‐Ayón, M. A., Sañudo‐Barajas, J. A., Picos‐Corrales, L. A., & Licea‐Claverie, A. (2015). PNVCL‐PEGMA nanohydrogels with tailored transition temperature for controlled delivery of 5‐fluorouracil. Journal of Polymer Science Part A: Polymer Chemistry, 53(22), 2662-2672. doi: https://doi.org/10.1002/pola.27766
+[2] Dominik Wordaz & Natalia L. Komarova, Dynamics of Cancer: Mathematical Foundations of Oncology, University of California, Irvine, USA, 2014.
+
+[3] Robert A. Gatenby & Thomas L. Vincent, "Application of quantitative models from population biology and evolutionary game theory to tumor therapeutic strategies," Molecular Cancer Therapeutics, vol. 2, no. 9, pp. 919–927, Jun 2003.
